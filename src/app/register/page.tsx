@@ -89,12 +89,11 @@ const Register = () => {
             </button>
             <p className="text-red-600 text-[16px] mb-4">{error && error}</p>
           </form>
-          <div className="text-center text-gray-500 mt-4">- OR -</div>
           <Link
             className="block text-center text-blue-500 hover:underline mt-2"
             href="/login"
           >
-            Login with an existing account
+            Login
           </Link>
         </div>
       </div>
